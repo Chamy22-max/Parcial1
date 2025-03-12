@@ -79,6 +79,7 @@ public class Main {
 
                         cabinaSeleccionada.setTipo(tipo);
 
+                        /*https://es.stackoverflow.com/questions/5390/como-generar-n%C3%BAmeros-aleatorios-dentro-de-un-rango-de-valores*/
                         int duracion = random.nextInt(10) + 1;
                         System.out.println("Duración de la llamada: " + duracion + " minutos.");
                         cabinaSeleccionada.registrarLlamada(duracion);
