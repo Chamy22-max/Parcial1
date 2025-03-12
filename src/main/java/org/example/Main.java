@@ -13,7 +13,7 @@ public class Main {
         Random random = new Random();
 
         while (true) {
-            System.out.println("\nSeleccione lo que desea realizar:");
+            System.out.println("\033[0;3m" + "Seleccione lo que desea realizar:" + "\033[0m");
             System.out.println("1. Crear Cabinas 🏠");
             System.out.println("2. Escoger Cabina y Hacer Llamada 📲");
             System.out.println("3. Mostrar Información por Cabina");
@@ -114,7 +114,7 @@ public class Main {
                         totalDuracion += cabina.duracionTotal;
                         totalCosto += cabina.costoTotal;
                     }
-                    System.out.println("\nConsolidado total de todas las cabinas:");
+                    System.out.println("Consolidado total de todas las cabinas:");
                     System.out.println("Número total de llamadas: " + totalLlamadas);
                     System.out.println("Duración total de las llamadas: " + totalDuracion + " minutos");
                     System.out.println("Costo total: $" + totalCosto);
