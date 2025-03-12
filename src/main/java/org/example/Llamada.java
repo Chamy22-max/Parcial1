@@ -1,7 +1,7 @@
 package org.example;
 
 public class Llamada {
-
+    /*https://openwebinars.net/blog/introduccion-a-poo-en-java-objetos-y-clases/*/
     private static final double TARIFA_LOCAL = 50.0;
     private static final double TARIFA_LARGA_DISTANCIA = 350.0;
     private static final double TARIFA_CELULAR = 150.0;

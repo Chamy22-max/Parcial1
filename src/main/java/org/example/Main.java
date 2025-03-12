@@ -12,6 +12,7 @@ public class Main {
         List<Llamada> cabinas = new ArrayList<>();
         Random random = new Random();
 
+/*https://docs.oracle.com/javase/8/docs/api/java/util/Random.html*/
         while (true) {
             System.out.println("\033[0;3m" + "Seleccione lo que desea realizar:" + "\033[0m");
             System.out.println("1. Crear Cabinas 🏠");
